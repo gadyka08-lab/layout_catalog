@@ -1,11 +1,11 @@
 .main{
   display: grid;
-  grid-template-columns: repeat(1, 200px);
+  grid-template-columns: repeat(1, $width-card);
   gap: $grid-gaps;
   justify-content:space-evenly;
   overflow: visible;
 
-  padding-inline: 48px;
+  padding-inline: 40px;
   padding-block: 50px;
 
 
